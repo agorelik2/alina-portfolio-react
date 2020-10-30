@@ -30,7 +30,7 @@ class App extends Component {
           <Route exact path="/" component={About} />
           {/* <Route exact path="/portfolio" component={Portfolio} /> */}
           <Route
-            path="/projects"
+            path="/portfolio"
             render={() => <Portfolio projects={this.state.projects} />}
           />
           <Route path="/contact" component={Contact} />
