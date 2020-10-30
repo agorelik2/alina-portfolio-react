@@ -5,7 +5,7 @@ import projects from "../utils/projects.json";
 function Portfolio() {
   return (
     <div>
-      <div className="container portfolio-container">
+      <div className="portfolio-container">
         <h1 className="title">Projects List</h1>
         <div className="row">
           <Project
