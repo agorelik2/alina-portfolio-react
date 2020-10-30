@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "EConnect - Project 2",
-        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/master/src/images/event_connect2.png?raw=true",
+        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/event_connect2.png?raw=true",
         "project": "Full-stack web application that utilizes MVC design pattern. Create events and invite your friends, relatives or co-workers",
         "location": " https://event-connect-2020.herokuapp.com/",
         "github": "https://github.com/agorelik2/event_connect"
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "All You Can Eat Burgers",
-        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/master/src/images/burger.png?raw=true",
+        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/burger.png?raw=true",
         "project": "Just fun app to create your own burgers. You can create a burger, devour and delete it!",
         "location": "https://burger-mvc-app.herokuapp.com/",
         "github": "https://github.com/agorelik2/burger-mvc-app"
@@ -19,7 +19,7 @@
     {
         "id": 3,
         "name": "Weather Dashboard",
-        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/master/src/images/Weather_Dashboard.png?raw=true",
+        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/Weather_Dashboard.png?raw=true",
         "project": "View current weather conditions and five day weather forecast for a city of your choice.",
         "location": "https://agorelik2.github.io/weather_dashboard_app/",
         "github": "https://github.com/agorelik2/weather_dashboard_app"
@@ -28,7 +28,7 @@
     {
         "id": 4,
         "name": "JavaScript Quiz",
-        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/master/src/images/JavaScript_Quiz_2.png?raw=true",
+        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/JavaScript_Quiz_2.png?raw=true",
         "project": "Answer basic JavaScript questions in 75 sec. Bonus points are added based on your timing.",
         "location": "https://agorelik2.github.io/js-quiz-app",
         "github": "https://github.com/agorelik2/js-quiz-app"
@@ -36,7 +36,7 @@
     {
         "id": 5,
         "name": "Daily Planner",
-        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/master/src/images/Daily_Planner.png?raw=true",
+        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/Daily_Planner.png?raw=true",
         "project": "A simple daily planner application that allows a user to update and save events for each hour of the work day.",
         "location": "https://agorelik2.github.io/workday-schedule-app/",
         "github": "https://github.com/agorelik2/workday-schedule-app"
@@ -44,7 +44,7 @@
     {
         "id": 6,
         "name": "Travel Guide - Project 1",
-        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/master/src/images/Travel_Guide.png?raw=true",
+        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/Travel_Guide.png?raw=true",
         "project": "Select a city to view travel attractions by category and weather forescast for the next five days.",
         "location": "https://agorelik2.github.io/travel_guide/",
         "github": "https://github.com/agorelik2/travel_guide"
