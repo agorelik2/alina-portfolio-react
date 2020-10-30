@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 
 function Contact(props) {
   return (
@@ -6,11 +7,10 @@ function Contact(props) {
       <main>
         <div className="container container-fluid align-items-center">
           <div className="m-5 pt-5">
-            {/* <!-- Display About Me page header --> */}
-            <div className="page-header">
-              <h2 className="blue-color">Contact Me</h2>
-              <br />
+            <div className="header">
+              <Header title="Contact Me" />
             </div>
+
             <div className="container container-fluid">
               <div className="row">
                 <a href="https://www.linkedin.com/in/alina-gorelik-1a2489a0/">

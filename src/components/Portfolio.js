@@ -1,12 +1,15 @@
 import React from "react";
+import Header from "./Header";
 import Project from "./Project";
 import projects from "../utils/projects.json";
 
 function Portfolio() {
   return (
-    <div>
-      <div className="portfolio-container">
-        <h1 className="title">Projects List</h1>
+    <div className="portfolio-container">
+      <div className="m-5 pt-5 pb-5">
+        <div className="header">
+          <Header title="My Projects" />
+        </div>
         <div className="row">
           <Project
             name={projects[0].name}
