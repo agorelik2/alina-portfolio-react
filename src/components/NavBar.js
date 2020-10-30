@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Nav() {
+function NavBar() {
   return (
     <div className="container-nav">
       <ul className="nav nav-tabs">
@@ -68,4 +68,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default NavBar;

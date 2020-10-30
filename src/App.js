@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavTabs from "./components/Nav";
+import NavBar from "./components/NavBar";
 // import Header from "./components/Header";
 import Footer from "./components/Footer";
 // import Home from "./components/pages/Home";
@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <NavTabs />
+        <NavBar />
         {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />

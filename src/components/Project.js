@@ -8,7 +8,7 @@ function Project(props) {
           alt={props.name}
           src={props.image}
           className="card-img img-fluid p-2"
-          style={{ height: 12 }}
+          style={{ height: 250 }}
         />
         <div className="card-body">
           <h4 className="card-title">{props.name}</h4>
