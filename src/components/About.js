@@ -1,5 +1,5 @@
 import React from "react";
-// import Profile from "../../images/Alina_Photo.jpeg"
+import Alina_Photo from "../images/Alina_Photo.jpg";
 
 function About() {
   return (
@@ -8,24 +8,24 @@ function About() {
 
       {/* <img src={Profile} alt="profile-photo" className="profile float-left"></img> */}
       <main>
-        <div class="container container-fluid">
-          <div class="m-5 pt-5 pb-5">
+        <div className="container container-fluid">
+          <div className="m-5 pt-5 pb-5">
             {/* Display About Me page header */}
-            <div class="row">
-              <div class="col-md-3">
-                <div class="page-header">
-                  <h2 class="blue-color">About Me</h2>
+            <div className="row">
+              <div className="col-md-3">
+                <div className="page-header">
+                  <h2 className="blue-color">About Me</h2>
                   <br />
                 </div>
               </div>
             </div>
             {/* <Display Photo and Text in the same row, making sure the text will be under photo on small screens */}
-            <div class="row">
-              <div class="col-sm-6 col-md-12">
+            <div className="row">
+              <div className="col-sm-6 col-md-12">
                 <img
                   id="about-image"
-                  src="../images/Alina_Photo.jpg"
-                  class="img-thumbnail float-left mr-3"
+                  src={Alina_Photo}
+                  className="img-thumbnail float-left mr-3"
                   alt="Alina Gorelik"
                 />
                 <p>

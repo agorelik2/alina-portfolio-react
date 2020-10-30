@@ -2,25 +2,24 @@ import React from "react";
 
 function Project(props) {
   return (
-    <div className="card port-card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Project:</strong> {props.project}
-          </li>
-          <li>
-            <strong>Demo:</strong> {props.location}
-          </li>
-          <li>
-            <strong>Github:</strong> {props.github}
-          </li>
-        </ul>
+    <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+      <div className="card">
+        <img
+          alt={props.name}
+          src={props.image}
+          className="card-img img-fluid p-2"
+          style={{ height: 12 }}
+        />
+        <div className="card-body">
+          <h4 className="card-title">{props.name}</h4>
+          <p className="card-text">{props.project}</p>
+          <a className="card-link" href={props.location}>
+            Try it Live
+          </a>
+          <a className="card-link p-2" href={props.github}>
+            Github <i className="fab fa-github"></i>
+          </a>
+        </div>
       </div>
     </div>
   );
