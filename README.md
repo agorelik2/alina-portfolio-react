@@ -51,20 +51,17 @@ My updated portfolio site still has all of the content it previously had:
 
 ## Screen Shots
 
-The main screen of the application shows
-![image-1](public/assets/images/image-1.png)
+The home page is called About Me. It will also display if "Alina Gorelik" link is clicked on.
+![image-about](public/assets/images/image-about.png)
 
-User searched on "green", the employees with the last name "Green" are displayed
-![image-1a](public/assets/images/image-1a.png)
+Portfolio page displays 6 projects, links to my Github and LinkedIn
+![image-portfolio](public/assets/images/image-portfolio.png)
 
-User searched on "tina", the employees with the first name "Tina" are displayed
-![image-2](public/assets/images/image-2.png)
+Resume page
+![image-resume](public/assets/images/image-resume.png)
 
-The employees are sorted by first name
-![image-3](public/assets/images/image-3.png)
-
-The employees are sorted by last name
-![image-4](public/assets/images/image-4.png)
+Contact Me page
+![image-contact](public/assets/images/image-contact.png)
 
 ## React
 
