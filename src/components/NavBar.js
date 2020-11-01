@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Alina_Gorelik_Resume from "../images/Alina_Gorelik_Resume.pdf";
 
 function NavBar() {
   return (
@@ -65,10 +66,20 @@ function NavBar() {
                   Portfolio
                 </a> */}
               </li>
-              <li className="nav-item">
+              <li className="nav-item portfolio-link">
+                <Link
+                  to="/resume"
+                  className={
+                    window.location.pathname === "/resume"
+                      ? "nav-link active"
+                      : "nav-link"
+                  }
+                >
+                  Resume
+                </Link>
                 {/* <a
                   className="nav-link portfolio-link"
-                  href="assets/Alina_Gorelik_Resume.pdf"
+                  href="../images/Alina_Gorelik_Resume.pdf"
                 >
                   Resume
                 </a> */}

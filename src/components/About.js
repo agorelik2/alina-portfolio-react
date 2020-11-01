@@ -11,12 +11,6 @@ function About() {
           {/* Display About Me page header */}
           <div className="header">
             <Header title="About Me" />
-            {/* <div className="col-md-3">
-              <div className="page-header">
-                <h2 className="blue-color">About Me</h2>
-                <br />
-              </div>
-            </div> */}
           </div>
           {/* <Display Photo and Text in the same row, making sure the text will be under photo on small screens */}
           <div className="row">

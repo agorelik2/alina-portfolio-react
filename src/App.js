@@ -4,9 +4,9 @@ import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-// import Home from "./components/pages/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import SocMedia from "./components/SocMedia";
 import projects from "./utils/projects.json";
@@ -21,7 +21,7 @@ class App extends Component {
       projects: projects,
     });
   }
-  // state = { projects };
+
   render() {
     return (
       <Router>
@@ -33,6 +33,7 @@ class App extends Component {
             path="/portfolio"
             render={() => <Portfolio projects={this.state.projects} />}
           />
+          <Route path="/resume" component={Resume} />
           <Route path="/contact" component={Contact} />
           <SocMedia />
           <br />
