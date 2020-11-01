@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/">
         <NavBar />
         <div className="container container-fluid">
           <Switch>
