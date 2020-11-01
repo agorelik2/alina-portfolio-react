@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/alina-portfolio-react/static/css/main.2d0b9df2.chunk.css",
+    "main.js": "/alina-portfolio-react/static/js/main.bddb9d78.chunk.js",
+    "main.js.map": "/alina-portfolio-react/static/js/main.bddb9d78.chunk.js.map",
+    "runtime-main.js": "/alina-portfolio-react/static/js/runtime-main.2879d85f.js",
+    "runtime-main.js.map": "/alina-portfolio-react/static/js/runtime-main.2879d85f.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/alina-portfolio-react/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8fd9efa4.chunk.js": "/alina-portfolio-react/static/js/2.8fd9efa4.chunk.js",
+    "static/js/2.8fd9efa4.chunk.js.map": "/alina-portfolio-react/static/js/2.8fd9efa4.chunk.js.map",
+    "static/js/3.f370255a.chunk.js": "/alina-portfolio-react/static/js/3.f370255a.chunk.js",
+    "static/js/3.f370255a.chunk.js.map": "/alina-portfolio-react/static/js/3.f370255a.chunk.js.map",
+    "index.html": "/alina-portfolio-react/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/alina-portfolio-react/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.2d0b9df2.chunk.css.map": "/alina-portfolio-react/static/css/main.2d0b9df2.chunk.css.map",
+    "static/js/2.8fd9efa4.chunk.js.LICENSE.txt": "/alina-portfolio-react/static/js/2.8fd9efa4.chunk.js.LICENSE.txt",
+    "static/media/Alina_Gorelik_Resume.f1ff49cf.pdf": "/alina-portfolio-react/static/media/Alina_Gorelik_Resume.f1ff49cf.pdf",
+    "static/media/Alina_Photo.89067cee.jpg": "/alina-portfolio-react/static/media/Alina_Photo.89067cee.jpg",
+    "static/media/New_Alina_Resume.2c17981f.pdf": "/alina-portfolio-react/static/media/New_Alina_Resume.2c17981f.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2879d85f.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8fd9efa4.chunk.js",
+    "static/css/main.2d0b9df2.chunk.css",
+    "static/js/main.bddb9d78.chunk.js"
+  ]
+}
