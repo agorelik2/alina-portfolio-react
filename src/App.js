@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -26,14 +26,15 @@ class App extends Component {
       <Router>
         <NavBar />
         <div className="container container-fluid">
-          <Route exact path="/" component={About} />
-          <Route
-            path="/portfolio"
-            render={() => <Portfolio projects={this.state.projects} />}
-          />
-          <Route path="/resume" component={Resume} />
-          <Route path="/contact" component={Contact} />
-
+          <Switch>
+            <Route exact path="/alina-portfolio-react" component={About} />
+            <Route
+              path="/portfolio"
+              render={() => <Portfolio projects={this.state.projects} />}
+            />
+            <Route path="/resume" component={Resume} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
           <Footer />
         </div>
       </Router>
