@@ -40,13 +40,13 @@
         "project": "A simple daily planner application that allows a user to update and save events for each hour of the work day.",
         "location": "https://agorelik2.github.io/workday-schedule-app/",
         "github": "https://github.com/agorelik2/workday-schedule-app"
-    },
+    }, 
     {
         "id": 6,
-        "name": "Travel Guide - Project 1",
-        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/Travel_Guide.png?raw=true",
-        "project": "Select a city to view travel attractions by category and weather forescast for the next five days.",
-        "location": "https://agorelik2.github.io/travel_guide/",
-        "github": "https://github.com/agorelik2/travel_guide"
+        "name": "Employee Directory",
+        "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/employee_directory.png?raw=true",
+        "project": "React Built application that helps manager to view, filter and sort non-sensitive data about employees.",
+        "location": "https://agorelik2.github.io/employee-directory/",
+        "github": "https://github.com/agorelik2/employee-directory"
     }
 ]

@@ -8,7 +8,6 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-import SocMedia from "./components/SocMedia";
 import projects from "./utils/projects.json";
 
 class App extends Component {
@@ -28,7 +27,6 @@ class App extends Component {
         <NavBar />
         <div className="container container-fluid">
           <Route exact path="/" component={About} />
-          {/* <Route exact path="/portfolio" component={Portfolio} /> */}
           <Route
             path="/portfolio"
             render={() => <Portfolio projects={this.state.projects} />}

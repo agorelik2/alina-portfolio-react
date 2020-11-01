@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+# alina-portfolio-react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Username:
 
-## Available Scripts
+agorelik2
 
-In the project directory, you can run:
+## Title:
 
-### `npm start`
+### Alina Portfolio React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Link to the deployed application](https://agorelik2.github.io/employee-directory/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Content
 
-### `npm test`
+- [Description](#description)
+- [Updated Portfolio](#updated-portfolio)
+- [Screen Shots](#screen-shots)
+- [React](#react)
+- [Development](#development)
+- [Design](#design)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Built With](#built-with)
+- [Repo](#repo)
+- [Demo](#demo)
+- [Developer](#developer)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+This application is a project portfolio built with React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Updated Portfolio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+My updated portfolio site still has all of the content it previously had:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- My name, About, Portfolio, Resume and Contact pages
 
-### `npm run eject`
+- Links to my GitHub profile & LinkedIn page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- A link to a PDF of my resume with updated projects
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- A list of projects. For each project, I have the following:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  - Project title
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  - Link to the deployed version
 
-## Learn More
+  - Link to the GitHub repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  - GIF or screenshot of the deployed application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screen Shots
 
-### Code Splitting
+The main screen of the application shows
+![image-1](public/assets/images/image-1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+User searched on "green", the employees with the last name "Green" are displayed
+![image-1a](public/assets/images/image-1a.png)
 
-### Analyzing the Bundle Size
+User searched on "tina", the employees with the first name "Tina" are displayed
+![image-2](public/assets/images/image-2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The employees are sorted by first name
+![image-3](public/assets/images/image-3.png)
 
-### Making a Progressive Web App
+The employees are sorted by last name
+![image-4](public/assets/images/image-4.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## React
 
-### Advanced Configuration
+The pre-existing alina-portfolio application was completely refactored into REACT application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- The App.js file was created to handle the routing in the application using "react-router-dom" npm package
+- The following page components got created:
+  - About.js
+  - Contact.js
+  - Portfolio.js
+  - Resume.js
+- The following functional components are created to be used on multople pages:
+  - Header.js
+  - NavBar.js
+  - SocMedia.js
+  - Footer.js
+- New Project.js component is created to be used on Porfolio page to display every single project
+- New Utils folder has projects.json file that contains data being imported into Portfolio page
+- New Images folder contains all the _.png and _.pdf files used by the application
+- App.css file was modified to hold all the custom styles for the application
+- Package.json file was updated as required for the app deployment
+- Public/index.html was updated to have a script enabling fontawesome
 
-### Deployment
+## Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Updated portfolio featuring 6 total projects
 
-### `npm run build` fails to minify
+- Used React to refactor the exisiting alina-portfolio app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Added `Header` component that appears on multiple pages
+
+- Created a single `Project` component that will be used multiple times on Portfolio page
+
+- Created navigation using React Router, dynamic rendering the pages
+
+- Added `Footer` component that appears on multiple pages
+
+- Updated GitHub profile with pinned repositories featuring those same projects
+
+- Deployed this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+
+#### Design
+
+- Mobile-first design
+
+- Chose a color palette for your site so it doesn't just look like
+  the default bootstrap theme or an unstyled HTML site.
+
+- Made sure the font size is large enough to read, and that the colors don't cause eye strain.
+
+## Installation
+
+To use this application locally:
+
+- Install Node.js on your computer
+- Create Github Repo for the app, and clone it on your local machine
+- Run `npx create-react-app .` to create boilerplate react application
+- Use `npm install` to install all the dependencies, see [Dependencies](#dependencies) for the complete list
+- Run `npm start`
+
+## Dependencies
+
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^0.2.4"
+
+## Built With
+
+- [VScode](https://code.visualstudio.com/)
+- [Gitbash](https://gitforwindows.org/)
+- [node.js](https://nodejs.org/en/)
+- [express.js](https://expressjs.com/)
+- [react.js](https://reactjs.org/)
+
+## Repo:
+
+https://github.com/agorelik2/alina-portfolio-react
+
+## Demo:
+
+https://agorelik2.github.io/employee-directory/
+
+## Developer
+
+    Alina Gorelik
