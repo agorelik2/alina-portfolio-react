@@ -8,7 +8,7 @@ agorelik2
 
 ### Alina Portfolio React
 
-[Link to the deployed application](https://agorelik2.github.io/employee-directory/)
+[Link to the deployed application](https://agorelik2.github.io/alina-portfolio-react/)
 
 ## Table of Content
 
@@ -148,7 +148,7 @@ https://github.com/agorelik2/alina-portfolio-react
 
 ## Demo:
 
-https://agorelik2.github.io/employee-directory/
+https://agorelik2.github.io/alina-portfolio-react/
 
 ## Developer
 
