@@ -14,7 +14,7 @@ header h1 {
 body {
   /* background-color: #17a2b8; */
   background-color: #84afdc;
-  font-size: 0.9rem;
+  font-size: 1rem;
   width: 100%;
 }
 .m-heading {
@@ -93,6 +93,7 @@ a.bottom-link:hover {
   border: 2px solid #f5ba09;
   border-radius: 0.5rem;
   color: #3791f1;
+  /* font-size: 16px; */
 }
 .media_link:hover {
   color: rgb(221, 124, 59);

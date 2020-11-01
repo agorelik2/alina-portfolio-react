@@ -3,7 +3,7 @@
         "id": 1,
         "name": "EConnect - Project 2",
         "image": "https://github.com/agorelik2/alina-portfolio-react/blob/main/src/images/event_connect2.png?raw=true",
-        "project": "Full-stack web application that utilizes MVC design pattern. Create events and invite your friends, relatives or co-workers",
+        "project": "Full-stack web application that utilizes MVC design pattern. Create events and invite your relatives and friends.",
         "location": " https://event-connect-2020.herokuapp.com/",
         "github": "https://github.com/agorelik2/event_connect"
 

@@ -55,10 +55,11 @@ function About() {
                 development. In June, I enrolled in a full stack web development
                 bootcamp at Michigan State University. I am currently learning
                 the latest trends in web development including HTML5, CSS3,
-                JQuery, Express.js, Node.js, React.Js utilizing MySQL and
-                MongoDB. It is not easy to start learning again at 51, however,
-                I am confident that I will overcome all the challenges, finish
-                the course, and reclaim my career as a web developer.
+                JQuery, Express.js, Node.js, React.js utilizing MySQL and
+                MongoDB. It is not easy to become a student again at 52.
+                However, I am fully confident that I will overcome all the
+                challenges, finish the course, and reclaim my career as a web
+                developer.
               </p>
             </div>
           </div>

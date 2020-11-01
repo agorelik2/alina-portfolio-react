@@ -1,6 +1,7 @@
 import React from "react";
-import ResumePNG from "../images/resume.png";
-import ResumePDF from "../images/Alina_Gorelik_Resume.pdf";
+// import ResumePNG from "../images/resume.png";
+// import ResumePDF from "../images/Alina_Gorelik_Resume.pdf";
+import ResumePDF from "../images/New_Alina_Resume.pdf";
 import Header from "./Header";
 
 function Resume() {
