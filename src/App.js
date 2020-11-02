@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <Router basename="/">
         <NavBar />
-        <div className="container container-fluid">
+        <div className="container">
           <Switch>
             {/* <Route exact path="/alina-portfolio-react" component={About} /> */}
             <Route exact path="/">
