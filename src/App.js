@@ -27,14 +27,11 @@ class App extends Component {
         <NavBar />
         <div className="container container-fluid">
           <Switch>
-            <Route
-              path={`${process.env.PUBLIC_URL}/`}
-              component={About}
-            ></Route>
             <Route exact path="/alina-portfolio-react" component={About} />
             <Route exact path="/">
               <About />
             </Route>
+            {/* <Route component={About} /> */}
             <Route
               path="/portfolio"
               render={() => <Portfolio projects={this.state.projects} />}
