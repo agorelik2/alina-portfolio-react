@@ -23,14 +23,15 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename="/alina-portfolio-react">
+      <Router basename="/">
         <NavBar />
         <div className="container container-fluid">
           <Switch>
-            <Route exact path="/alina-portfolio-react" component={About} />
+            {/* <Route exact path="/alina-portfolio-react" component={About} /> */}
             <Route exact path="/">
               <About />
             </Route>
+            <Route path="/about" component={About} />
             {/* <Route component={About} /> */}
             <Route
               path="/portfolio"
