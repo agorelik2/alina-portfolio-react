@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename="/">
+      <Router basename="/alina-portfolio-react">
         <NavBar />
         <div className="container container-fluid">
           <Switch>
