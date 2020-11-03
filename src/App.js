@@ -27,7 +27,7 @@ class App extends Component {
         <NavBar />
         <div className="container container-fluid">
           <Switch>
-            {/* <Route exact path="/alina-portfolio-react" component={About} /> */}
+            <Route path="/alina-portfolio-react/" component={About} />
             <Route exact path="/">
               <About />
             </Route>
