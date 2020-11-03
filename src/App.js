@@ -23,11 +23,11 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename="/">
+      <Router basename="/alina-portfolio-react">
         <NavBar />
         <div className="container container-fluid">
           <Switch>
-            <Route path="/alina-portfolio-react/" component={About} />
+            {/*<Route path="/alina-portfolio-react/" component={About} /> */}
             <Route exact path="/">
               <About />
             </Route>
@@ -39,9 +39,9 @@ class App extends Component {
             />
             <Route path="/resume" component={Resume} />
             <Route path="/contact" component={Contact} />
-            <Route>
+            {/*<Route>
               <About />
-            </Route>
+            </Route>*/}
           </Switch>
           <Footer />
         </div>
